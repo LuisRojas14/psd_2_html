@@ -15,6 +15,7 @@ nav {
 }
 #expertise-section {
   color: gray;
+  text-align: center;
 }
 #team-section {
   color: yellowgreen;
@@ -26,34 +27,80 @@ footer {
   color: blueviolet;
 }
 
-.expertise-parent {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  gap: 6px;
+.expertise-title {
+  font-weight: bold;
+  margin: 10px;
 }
 
-.expertise-icon {
+.expertise-parent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px 200px;
+  font-size: 12px;
+  border: 1px red solid;
 }
 
 .expertise-item {
-  width: 33%;
+  width: 25%;
+  text-align: center;
+  padding: 20px 10px;
+  margin: 1px;
+  border: 1px red solid;
+}
+
+.expertise-icon {
+  size: 5px;
+}
+
+.expertise-name {
+  color: grey;
+  font-size: 13px;
+  font-weight: bolder;
+  margin-top: 20px;
 }
 
 .parent-footer {
   color: white;
   background-image: url("/images/design-assets/bgk-footer.png");
   display: flex;
-  gap: 8px;
+  gap: 6px;
   justify-content: space-evenly;
   flex-wrap: wrap;
   height: 300px;
+  border: 1px red solid;
+  padding: 50px 270px;
+  font-size: 12px;
 }
 
 .child-footer {
   width: 30%;
+  border: 1px red solid;
 }
 
 .footer-title {
-  margin: 15px 0;
+  margin: 30px 0;
+}
+
+.help {
+  word-spacing: 30px;
+  width: 63%;
+}
+
+.footer-logo {
+  display: inline;
+  width: 35px;
+}
+
+.footer-company-name {
+  border: 1px red solid;
+}
+
+.footer-company-description {
+  margin: 30px 0;
+}
+
+.footer-submitt-button {
+  background-color: gray;
+  width: 150%;
 }
