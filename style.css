@@ -1,27 +1,81 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.headline {
+  background-image: url(/images/design-assets/bgk-header.png);
+  width: 100%;
+  height: 790px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-titel {
+  display: flex;
+  flex-direction: column;
+  padding-top: 270px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-titel h1 {
+  font-size: 45px;
+}
+
+.header-titel p {
+  padding-top: 60px;
+  font-size: 15px;
+  line-break: auto;
+}
+
 nav {
-    color: red;
+  position: fixed;
+  width: 100%;
 }
-#hero-section{
-    color: blue;
+
+nav ul {
+  float: right;
+  list-style: none;
+  padding: 25px;
+  padding-right: 500px;
+  margin: 0;
 }
-#our-story-section{
-    color: green;
+
+nav li {
+  float: left;
 }
-#watch-section{
-    color: darkred;
+
+nav a {
+  font-size: 0.9em;
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 0 0 20px;
+  display: block;
 }
-#expertise-section {
-    color: fuchsia;
+
+nav a:hover {
+  color: aqua;
 }
-#team-section{
-    color: yellowgreen;
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px;
+  height: 70px;
+  width: 100px;
+  float: left;
+  padding-left: 320px;
+  align-items: center;
+  box-sizing: border-box;
+
 }
-#contact_client-section{
-    color: lightsalmon;
-}
-footer{
-    color: blueviolet;
-}
+
