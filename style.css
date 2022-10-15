@@ -1,43 +1,8 @@
-*{
-    margin: 0;
-}
-nav {
-    color: red;
-}
-#hero-section{
-    color: blue;
-}
-
-.flexbox-item{
-    width: 200px;
-    margin: 10px;
-    border: 3px solid 
-    background-color: 000000;
-
-}
-#watch-section{
-    color: darkred;
-}
-#expertise-section {
-    color: fuchsia;
-}
-#team-section{
-    color: yellowgreen;
-}
-#contact_client-section{
-    color: lightsalmon;
-}
-footer{
-    color: blueviolet;
-
-}
-
 
 .box{
-  background-color: dodgerblue;
+  background-color:#fff;
   height: 350px;
   width: 700;
   border: 1px solid lightgrey;
   text-align:left;
-}
 }
