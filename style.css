@@ -1,9 +1,9 @@
 
 .box{
   background-color:#fff;
-  height: 350px;
-  width: 700;
-  border: 1px ;
+  height: 250px;
+  width: 400;
+  border: 100px ;
   text-align:left;
   padding: 100px;
 
@@ -24,6 +24,11 @@
 .story{
   width: 100%;
   height: 100vh;
-  background-image: ;
+  background-image: 0;
   padding:0;
+}
+
+.play{
+  
+
 }
