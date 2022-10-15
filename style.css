@@ -55,6 +55,18 @@ nav a:hover {
   height: 790px;
   background-repeat: no-repeat;
   background-size: cover;
+
+
+#team-section{
+    color: white;
+    display:flex;
+    flex-direction:column;
+    width: auto;
+    height: auto;
+    background-image: url('images/design-assets/bgk-header.png');
+    justify-content: space-between;
+    align-items:center;
+
 }
 
 .header-titel {
@@ -104,7 +116,81 @@ nav a:hover {
   color: #00e0d0;
 }
 
+footer{
+    color: blueviolet;
+}
+#Top {
+    display:flex;
+    flex-direction: column;
+    align-items:center;  
+    line-height:1.7em;  
+    margin:2em;
+    justify-content:center;
+    height:auto;
+    width:auto;
+}
+h3{
+    font-weight:600;
+}
+h5{
+    font-weight:400;
+    color:  rgba(255, 255, 255,0.7);
+}
+.Team-Members{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    color: white;
+    justify-content:center;
+    
+}
+.Name{
+    display: flex;
+    width: auto; 
+    border: 1px rgba(255, 255, 255,0.5) solid;
+    border-bottom-style: hidden;
+    justify-content: center;
+    padding-top: 1.2em;
+    padding-bottom: 0.2em;
+    text-transform:uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+.Job{
+    display: flex;
+    width: auto; 
+    border: 1px  rgba(255, 255, 255,0.5) solid;
+    border-top-style: hidden;
+    justify-content: center;
+    padding-top: 0.5em;
+    padding-bottom: 1.2em;
+    text-transform:uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:200px;
+    font-size:x-small;
+    color: rgba(255, 255, 255,0.5);
 
-
-
-
+}
+.white-box{
+    background-color: white;
+    padding: 5.5em;
+}
+#Hiring{
+    display:flex;
+    justify-content: center;
+    color:aqua;
+    border: aqua 1px solid;
+    width:9em;
+    padding: 0.5em;
+}
+#Bottom {
+    display:flex;
+    flex-direction: column;
+    align-items:center;  
+    line-height:1.7em; 
+    margin: 2em 0; 
+}
+.CEO, .Engineering, .Designer, .Marketing{
+    padding:0.7em 1em;
+}
