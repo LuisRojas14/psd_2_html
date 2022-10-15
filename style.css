@@ -27,11 +27,6 @@ footer {
   color: blueviolet;
 }
 
-.expertise-title {
-  font-weight: bold;
-  margin: 10px;
-}
-
 .expertise-parent {
   display: flex;
   justify-content: center;
@@ -39,6 +34,16 @@ footer {
   margin: 30px 200px;
   font-size: 12px;
   border: 1px red solid;
+}
+
+.expertise-title {
+  width: 80%;
+}
+
+#expertise-line {
+  width: 10%;
+  /* using margin doesn't allow responsivity */
+  margin: 10px auto;
 }
 
 .expertise-item {
@@ -50,7 +55,8 @@ footer {
 }
 
 .expertise-icon {
-  size: 5px;
+  width: 25px;
+  height: 25px;
 }
 
 .expertise-name {
@@ -88,12 +94,15 @@ footer {
 }
 
 .footer-logo {
-  display: inline;
   width: 35px;
+  margin: 10px;
 }
 
 .footer-company-name {
   border: 1px red solid;
+  font-size: 22px;
+  color: aqua;
+  padding: 5px 5px;
 }
 
 .footer-company-description {
