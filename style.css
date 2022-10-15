@@ -21,19 +21,40 @@ body {
   flex-direction: column;
   padding-top: 270px;
   color: white;
-  text-align: center;
   justify-content: center;
   align-items: center;
 }
 
-.header-titel h1 {
-  font-size: 45px;
+.header-titel h2{
+  color: #fff;
+  font-size:2rem;
+}
+.header-titel p{
+  color: #fff;
+  max-width: 60%;
+  margin: 0 auto;
+  padding-bottom: 30px
 }
 
-.header-titel p {
-  padding-top: 60px;
-  font-size: 15px;
-  line-break: auto;
+.separator {
+  height: 1px;
+  width: 127px;
+  margin: 20px auto;
+  background: #00e0d0;
+}
+
+.learn-button{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #00e0d0;
+  width: 150px;
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.learn-button a{
+  color: #00e0d0;
 }
 
 nav {
@@ -78,4 +99,6 @@ nav a:hover {
   box-sizing: border-box;
 
 }
+
+
 
