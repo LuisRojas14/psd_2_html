@@ -3,75 +3,24 @@
   padding: 0;
 }
 
-body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
-.headline {
-  background-image: url(/images/design-assets/bgk-header.png);
-  width: 100%;
-  height: 790px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.header-titel {
-  display: flex;
-  flex-direction: column;
-  padding-top: 270px;
-  color: white;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-titel h2{
-  color: #fff;
-  font-size:2rem;
-}
-.header-titel p{
-  color: #fff;
-  max-width: 60%;
-  margin: 0 auto;
-  padding-bottom: 30px
-}
-
-.separator {
-  height: 1px;
-  width: 127px;
-  margin: 20px auto;
-  background: #00e0d0;
-}
-
-.learn-button{
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #00e0d0;
-  width: 150px;
-  height: 50px;
-  justify-content: center;
-  text-align: center;
-}
-
-.learn-button a{
-  color: #00e0d0;
-}
-
 nav {
+  display: flex;
+  flex-direction: row;
   position: fixed;
   width: 100%;
+  font-family: 'Roboto';
+
 }
 
 nav ul {
+  display: flex;
+  flex-direction: row;
   float: right;
   list-style: none;
   padding: 25px;
-  padding-right: 500px;
+  padding-left: 35%;
   margin: 0;
-}
-
-nav li {
-  float: left;
+  font-weight: bold;
 }
 
 nav a {
@@ -96,9 +45,65 @@ nav a:hover {
   float: left;
   padding-left: 320px;
   align-items: center;
-  box-sizing: border-box;
 
 }
+
+.headline {
+  background-image: url(/images/design-assets/bgk-header.png);
+  width: 100%;
+  height: 790px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-titel {
+  display: flex;
+  flex-direction: column;
+  padding-top: 270px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-titel h2{
+  color: #fff;
+  font-size:2rem;
+  font-family: 'Playfair';
+
+}
+.header-titel p{
+  color: #fff;
+  max-width: 60%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-family: 'Roboto';
+}
+
+.separator {
+  height: 1px;
+  width: 127px;
+  margin: 20px auto;
+  background: #00e0d0;
+}
+
+.learn-button{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #00e0d0;
+  width: 150px;
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: bold;
+  
+}
+
+.learn-button a{
+  color: #00e0d0;
+}
+
+
 
 
 
