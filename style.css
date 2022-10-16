@@ -1,7 +1,13 @@
 
+* {
+  margin-top: 0px;
+  padding: 1px;
+}
+
+
 .box{
   background-color:#fff;
-  height: 250px;
+  height: px;
   width: 400;
   border: 100px ;
   text-align:left;
@@ -11,22 +17,37 @@
 
 .logo{
   float: left;
-  size-adjust: 50px;
-  margin-top: 70px;
+  size-adjust: 70px;
+  margin-top: -80px;
+  padding: 130px;
+  
 
 }
 .box1{
   padding: px;
   height: 250px;;
   width: 400px;
-  border: 1px;
+  border: 0px;
 }
 
 .our-story{
   height: 1px;
-  width: 127px;
-  margin: 20px auto;
+  width: 100px;
+  margin: 10px;
  font-size: 0.9em;
-  display: block;
+ font-family: "roboto";
+ padding-left: -100px;
+ 
 }
- .learn-button
+.learn-button{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #00e0d0;
+  width: 130px;
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-emphasis-color: #00e0d0;
+  
