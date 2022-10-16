@@ -21,14 +21,12 @@
   width: 400px;
   border: 1px;
 }
-.story{
-  width: 100%;
-  height: 100vh;
-  background-image: 0;
-  padding:0;
-}
 
-.play{
-  
+.our-story{
+  height: 1px;
+  width: 127px;
+  margin: 20px auto;
+ font-size: 0.9em;
+  display: block;
 }
- 
+ .learn-button
