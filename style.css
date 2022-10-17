@@ -33,7 +33,6 @@ footer {
   flex-wrap: wrap;
   margin: 30px 200px;
   font-size: 12px;
-  border: 1px red solid;
 }
 
 .expertise-title {
@@ -54,7 +53,6 @@ footer {
   text-align: center;
   padding: 20px 10px;
   margin: 1px;
-  border: 1px red solid;
 }
 
 .expertise-name {
@@ -72,23 +70,20 @@ footer {
   justify-content: space-evenly;
   flex-wrap: wrap;
   height: 300px;
-  border: 1px red solid;
+
   padding: 50px 270px;
   font-size: 12px;
 }
 
 .child-footer {
   width: 30%;
-  border: 1px red solid;
 }
 
 .footer-title {
   margin: 30px 0;
-  border: 1px red solid;
 }
 
 .footer-logo {
-  border: 1px red solid;
   font-size: 24px;
   color: #4ca3a4;
   display: flex;
@@ -109,10 +104,6 @@ footer {
   display: flex;
   flex-direction: row;
   gap: 5px;
-}
-
-.footer-textbox {
-  border: 1px red solid;
 }
 
 .footer-submitt-button {
