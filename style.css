@@ -1,30 +1,204 @@
 * {
   margin: 0;
+  padding: 0;
 }
+
+
 nav {
-  color: red;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  font-family: 'Roboto';
+
 }
-#hero-section {
-  color: blue;
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  list-style: none;
+  padding: 25px;
+  padding-left: 35%;
+  margin: 0;
+  font-weight: bold;
 }
-#our-story-section {
-  color: green;
+
+nav a {
+  font-size: 0.9em;
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 0 0 20px;
+  display: block;
 }
-#watch-section {
-  color: darkred;
+
+nav a:hover {
+  color: aqua;
 }
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px;
+  height: 70px;
+  width: 100px;
+  float: left;
+  padding-left: 320px;
+  align-items: center;
+
+}
+
+.headline {
+  background-image: url(/images/design-assets/bgk-header.png);
+  width: 100%;
+  height: 790px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#team-section{
+    color: white;
+    display:flex;
+    flex-direction:column;
+    width: auto;
+    height: auto;
+    background-image: url('images/design-assets/bgk-header.png');
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.header-titel {
+  display: flex;
+  flex-direction: column;
+  padding-top: 270px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-titel h2{
+  color: #fff;
+  font-size:2rem;
+  font-family: 'Playfair';
+
+}
+.header-titel p{
+  color: #fff;
+  max-width: 60%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-family: 'Roboto';
+}
+
+.separator {
+  height: 1px;
+  width: 127px;
+  margin: 20px auto;
+  background: #00e0d0;
+}
+
+.learn-button{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #00e0d0;
+  width: 150px;
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: bold;
+  
+}
+
+.learn-button a{
+  color: #00e0d0;
+}
+
+footer{
+    color: blueviolet;
+}
+#Top {
+    display:flex;
+    flex-direction: column;
+    align-items:center;  
+    line-height:1.7em;  
+    margin:2em;
+    justify-content:center;
+    height:auto;
+    width:auto;
+}
+h3{
+    font-weight:600;
+}
+h5{
+    font-weight:400;
+    color:  rgba(255, 255, 255,0.7);
+}
+.Team-Members{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    color: white;
+    justify-content:center;
+    
+}
+.Name{
+    display: flex;
+    width: auto; 
+    border: 1px rgba(255, 255, 255,0.5) solid;
+    border-bottom-style: hidden;
+    justify-content: center;
+    padding-top: 1.2em;
+    padding-bottom: 0.2em;
+    text-transform:uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+.Job{
+    display: flex;
+    width: auto; 
+    border: 1px  rgba(255, 255, 255,0.5) solid;
+    border-top-style: hidden;
+    justify-content: center;
+    padding-top: 0.5em;
+    padding-bottom: 1.2em;
+    text-transform:uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:200px;
+    font-size:x-small;
+    color: rgba(255, 255, 255,0.5);
+
+}
+.white-box{
+    background-color: white;
+    padding: 5.5em;
+}
+#Hiring{
+    display:flex;
+    justify-content: center;
+    color:aqua;
+    border: aqua 1px solid;
+    width:9em;
+    padding: 0.5em;
+}
+#Bottom {
+    display:flex;
+    flex-direction: column;
+    align-items:center;  
+    line-height:1.7em; 
+    margin: 2em 0; 
+}
+.CEO, .Engineering, .Designer, .Marketing{
+    padding:0.7em 1em;
+}
+
 #expertise-section {
   color: gray;
   text-align: center;
-}
-#team-section {
-  color: yellowgreen;
-}
-#contact_client-section {
-  color: lightsalmon;
-}
-footer {
-  color: blueviolet;
 }
 
 .expertise-parent {
@@ -117,3 +291,4 @@ footer {
   gap: 40px;
   width: 63%;
 }
+
