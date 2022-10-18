@@ -291,4 +291,54 @@ h5{
   gap: 40px;
   width: 63%;
 }
+#contact_client-section{
+  display:flex;
+  width:auto;
+  height:auto;
+  margin: 3em;
+  justify-content:center;
 
+}
+#contact-left{
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  width:auto;
+  height:auto;
+  margin-right:3em;
+}
+#customer-right{
+  display: flex;
+  flex-wrap: wrap;
+  width:auto;
+  height: auto;
+}
+.customer-logo{
+  height: auto;
+  width: 8em;
+  margin: 1em 2em;
+  margin-left:1em;
+}
+.Customer-Client-Section{
+  margin-top: 1em;
+  margin-left:0.5em;
+  margin-bottom: 1em;
+  text-transform:uppercase;
+}
+.Form{
+  color:rgba(88, 88, 88, 0.7);
+  border:rgba(88, 88, 88, 0.7) 1px solid;
+  padding: 0.8em 15em 0.8em 0.8em;
+  margin: 0.5em;
+}
+#Your-Message{
+  padding-bottom: 11em
+}
+.Submit{
+  color:rgba(22, 178, 206, 0.7);
+  border:rgba(22, 178, 206, 0.7) 1px solid;
+  padding: 0.5em 0.8em 0.5em 0.8em;
+  margin: 0.5em;
+  width: 3em;
+  justify-items:center;
+}
