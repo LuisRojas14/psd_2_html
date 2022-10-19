@@ -1,3 +1,36 @@
+
+.box{
+  background-color:#fff;
+  height: px;
+  width: 400;
+  border: 100px ;
+  text-align:left;
+  padding: 100px;
+
+}
+
+.logo-big{
+  float: left;
+  size-adjust: 70px;
+  margin-top: -80px;
+  padding: 130px;
+  
+
+}
+.box1{
+  padding: 1px;
+  height: 250px;;
+  width: 400px;
+  border: 0px;
+}
+
+.our-story{
+  height: 1px;
+  width: 100px;
+  margin: 10px;
+ padding-left: -100px;
+ 
+}
 * {
   margin: 0;
   padding: 0;
@@ -99,11 +132,11 @@ nav a:hover {
   margin: 20px auto;
   background: #00e0d0;
 }
-
 .learn-button{
   display: flex;
   flex-direction: column;
   border: 1px solid #00e0d0;
+
   width: 150px;
   height: 50px;
   justify-content: center;
