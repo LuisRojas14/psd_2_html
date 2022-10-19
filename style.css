@@ -384,3 +384,14 @@ h5{
   background-size: cover;
 
 }
+.Play-button{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  padding: 370px;
+  height: 100px;
+  width: 150px;
+  float:inline-end;
+  padding-left:12px;
+  align-items: center;
+  justify-content: center;
