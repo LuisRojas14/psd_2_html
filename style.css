@@ -1,10 +1,4 @@
 
-* {
-  margin-top: 0px;
-  padding: 1px;
-}
-
-
 .box{
   background-color:#fff;
   height: px;
@@ -15,7 +9,7 @@
 
 }
 
-.logo{
+.logo-big{
   float: left;
   size-adjust: 70px;
   margin-top: -80px;
@@ -37,19 +31,347 @@
  padding-left: -100px;
  
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  font-family: 'Roboto';
+
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  list-style: none;
+  padding: 25px;
+  padding-left: 35%;
+  margin: 0;
+  font-weight: bold;
+}
+
+nav a {
+  font-size: 0.9em;
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 0 0 20px;
+  display: block;
+}
+
+nav a:hover {
+  color: aqua;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px;
+  height: 70px;
+  width: 100px;
+  float: left;
+  padding-left: 320px;
+  align-items: center;
+
+}
+
+.headline {
+  background-image: url(/images/design-assets/bgk-header.png);
+  width: 100%;
+  height: 790px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#team-section{
+    color: white;
+    display:flex;
+    flex-direction:column;
+    width: auto;
+    height: auto;
+    background-image: url('images/design-assets/bgk-header.png');
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.header-titel {
+  display: flex;
+  flex-direction: column;
+  padding-top: 270px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-titel h2{
+  color: #fff;
+  font-size:2rem;
+  font-family: 'Playfair';
+
+}
+.header-titel p{
+  color: #fff;
+  max-width: 60%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-family: 'Roboto';
+}
+
+.separator {
+  height: 1px;
+  width: 127px;
+  margin: 20px auto;
+  background: #00e0d0;
+}
 .learn-button{
   display: flex;
   flex-direction: column;
   border: 1px solid #00e0d0;
-  width: 130px;
+
+  width: 150px;
   height: 50px;
   justify-content: center;
   text-align: center;
   font-family: 'Roboto';
   font-weight: bold;
-  text-emphasis-color: #00e0d0;
   
 }
-.play{
-  position: ;
+
+.learn-button a{
+  color: #00e0d0;
+}
+
+footer{
+    color: blueviolet;
+}
+#Top {
+    display:flex;
+    flex-direction: column;
+    align-items:center;  
+    line-height:1.7em;  
+    margin:2em;
+    justify-content:center;
+    height:auto;
+    width:auto;
+}
+h3{
+    font-weight:600;
+}
+h5{
+    font-weight:400;
+    color:  rgba(255, 255, 255,0.7);
+}
+.Team-Members{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    color: white;
+    justify-content:center;
+    
+}
+.Name{
+    display: flex;
+    width: auto; 
+    border: 1px rgba(255, 255, 255,0.5) solid;
+    border-bottom-style: hidden;
+    justify-content: center;
+    padding-top: 1.2em;
+    padding-bottom: 0.2em;
+    text-transform:uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+.Job{
+    display: flex;
+    width: auto; 
+    border: 1px  rgba(255, 255, 255,0.5) solid;
+    border-top-style: hidden;
+    justify-content: center;
+    padding-top: 0.5em;
+    padding-bottom: 1.2em;
+    text-transform:uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:200px;
+    font-size:x-small;
+    color: rgba(255, 255, 255,0.5);
+
+}
+.white-box{
+    background-color: white;
+    padding: 5.5em;
+}
+#Hiring{
+    display:flex;
+    justify-content: center;
+    color:aqua;
+    border: aqua 1px solid;
+    width:9em;
+    padding: 0.5em;
+}
+#Bottom {
+    display:flex;
+    flex-direction: column;
+    align-items:center;  
+    line-height:1.7em; 
+    margin: 2em 0; 
+}
+.CEO, .Engineering, .Designer, .Marketing{
+    padding:0.7em 1em;
+}
+
+#expertise-section {
+  color: gray;
+  text-align: center;
+}
+
+.expertise-parent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px 200px;
+  font-size: 12px;
+}
+
+.expertise-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.expertise-line {
+  width: 5%;
+  margin: 10px auto;
+}
+
+.expertise-item {
+  width: 25%;
+  text-align: center;
+  padding: 20px 10px;
+  margin: 1px;
+}
+
+.expertise-name {
+  color: grey;
+  font-size: 13px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.parent-footer {
+  color: white;
+  background-image: url("/images/design-assets/bgk-footer.png");
+  display: flex;
+  gap: 6px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 300px;
+
+  padding: 50px 270px;
+  font-size: 12px;
+}
+
+.child-footer {
+  width: 30%;
+}
+
+.footer-title {
+  margin: 30px 0;
+}
+
+.footer-logo {
+  font-size: 24px;
+  color: #4ca3a4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin: 14px 0;
+}
+
+.footer-address,
+.footer-phone {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.footer-submitt-button {
+  background-color: #9c99b1;
+  padding: 3px 3px;
+}
+
+.help {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  width: 63%;
+}
+#contact_client-section{
+  display:flex;
+  width:auto;
+  height:auto;
+  margin: 3em;
+  justify-content:center;
+
+}
+#contact-left{
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  width:auto;
+  height:auto;
+  margin-right:3em;
+}
+#customer-right{
+  display: flex;
+  flex-wrap: wrap;
+  width:auto;
+  height: auto;
+}
+.customer-logo{
+  height: auto;
+  width: 8em;
+  margin: 1em 2em;
+  margin-left:1em;
+}
+.Customer-Client-Section{
+  margin-top: 1em;
+  margin-left:0.5em;
+  margin-bottom: 1em;
+  text-transform:uppercase;
+}
+.Form{
+  color:rgba(88, 88, 88, 0.7);
+  border:rgba(88, 88, 88, 0.7) 1px solid;
+  padding: 0.8em 15em 0.8em 0.8em;
+  margin: 0.5em;
+}
+#Your-Message{
+  padding-bottom: 11em
+}
+.Submit{
+  color:rgba(22, 178, 206, 0.7);
+  border:rgba(22, 178, 206, 0.7) 1px solid;
+  padding: 0.5em 0.8em 0.5em 0.8em;
+  margin: 0.5em;
+  width: 3em;
+  justify-items:center;
 }
